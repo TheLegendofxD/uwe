@@ -1,5 +1,5 @@
 # uwe
-A graphical interface for youtube-dl
+A graphical interface for youtube-dl licensed under GLP-2.0
 
 # Screenshots
 ![Screenshot Ubuntu Yaru-Theme](https://github.com/TheLegendofxD/uwe/blob/main/uwe-yaru.png?raw=true)
