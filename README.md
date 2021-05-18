@@ -6,7 +6,7 @@ A graphical interface for youtube-dl licensed under GLP-2.0
 
 # About
 I wrote this App to faster download from YouTube.
-**UWE** is short for **U**we **W**eb-Video **E**rhalter _(ger. Recviever)_ 
+**UWE** is short for **U**we **W**eb-Video **E**mpfänger _(ger. Recviever)_ 
 
 # Installation
 ### Ubuntu:
