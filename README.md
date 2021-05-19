@@ -18,7 +18,7 @@ I wrote this App to faster download from YouTube.
   
   > $ git clone https://github.com/TheLegendofxD/uwe.git
 
-### Windows(7+):
+### Windows(7+)[Not currently supported]:
 
   Go to https://python.org/downloads and download the newest version of python 3.x.
   Then go to https://git-scm.com/downloads and install Git.
