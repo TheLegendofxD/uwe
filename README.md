@@ -16,7 +16,7 @@ I wrote this App to faster download from YouTube.
   
   > $ pip install youtube_dl
   
-  > $ git clone https://TheLegendofxD/uwe.git
+  > $ git clone https://github.com/TheLegendofxD/uwe.git
 
 ### Windows(7+):
 
@@ -25,7 +25,7 @@ I wrote this App to faster download from YouTube.
   Now open the Comandpromt and type
   > pip install youtube_dl
   
-  > git clone https://TheLegendofxD/uwe.git
+  > git clone https://github.com/TheLegendofxD/uwe.git
  
  # Changelog
  ### 1.0
