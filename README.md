@@ -12,27 +12,65 @@ I wrote this App to faster download from YouTube.
 
 # Installation
 ### Ubuntu:
-  > $ sudo apt install --upgrade python3
+  ```diff
+  $ sudo apt install --upgrade python3
+  ```
   
-  > $ sudo apt install --upgrade git
+  ```diff
+  $ sudo apt install --upgrade git
+  ```
   
-  > $ pip install --upgrade youtube_dl
-  
-  > $ git clone https://github.com/TheLegendofxD/uwe.git
+  ```diff
+  $ pip install --upgrade youtube_dl
+  ```
+  ```diff
+  $ git clone https://github.com/TheLegendofxD/uwe.git
+  ```
 
 ### Windows(7+)[UWE 2.0+]:
 
   Go to https://python.org/downloads and download the newest version of python 3.x.
   Then go to https://git-scm.com/downloads and install Git(optinial).
   Now open the Comandpromt and type
-  > pip install --upgrade youtube_dl
+  ```diff
+  pip install --upgrade youtube_dl
+  ```
   or just install the youtube_dl binaries from https://youtube-dl.org/
   
-  > git clone https://github.com/TheLegendofxD/uwe.git
+  ```diff
+  git clone https://github.com/TheLegendofxD/uwe.git
+  ```
   or just download the newest release from Github.
- 
- # Changelog
- ### 1.0
+
+# Usage
+Just run **main.py**
+This can be done with:
+```diff
+python3 main.py
+```
+```diff
+python main.py
+```
+```diff
+py.exe main.py
+```
+
+or just by double clicking on the file.
+Just try which of these options work for you.
+
+If you want to use it in other python-programs:
+```diff
+import uwe
+
+url = "https://www.youtube.com/watch?v=i0gZaBCR9EI"
+mode = "Video" # ether "Audio" or "Video"
+subs = True # Here you can say if the subtitles should be downloaded
+auto_subs = False # Here you can choose if you want to download the normal subtitles or the automaticly generated subtitles
+Here you can choose if the subtitles should be embedded into the video file. This could cause problems with some video players
+uwe.download(url, mode, subs, auto_subs, embed_subs)
+``` 
+# Changelog
+### 1.0
 - Initial Release
 
 ### 1.1
@@ -40,7 +78,7 @@ I wrote this App to faster download from YouTube.
 - Added Links to my Website, the Changelog and a mailto-Link to my Feedback-Email-Adress
 
 ### 2.0
-- Now other Python-Programs can download Videos throw UWE
+- Now other Python-Programs can download Videos throw **UWE**
 - Changed the Window-title to include the version number
 - Removed unused Messagebox function
 - Added some comments
