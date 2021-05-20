@@ -80,7 +80,7 @@ uwe.download(url, mode, subs, auto_subs, embed_subs)
 ### 2.0
 - Now other Python-Programs can download Videos throw **UWE**
 - Changed the Window-title to include the version number
-- Removed unused Messagebox function
+- Removed unused message box function
 - Added some comments
-- Added a GUI written in Tkinter and a Textmode for compability with Windows and many other operation systems
+- Added a GUI written in Tkinter and a console-version for compatibility with Windows and many other operation systems
 - Rewrote a lot of code because of the other changes xD
