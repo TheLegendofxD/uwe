@@ -27,9 +27,9 @@ I wrote this App to faster download from YouTube.
   $ git clone https://github.com/TheLegendofxD/uwe.git
   ```
 
-### Windows(7+)[UWE 2.0+]:
+### Windows[UWE 2.0+]:
 
-  Go to https://python.org/downloads and download the newest version of python 3.x.
+  Go to https://python.org/downloads and download the newest version of python 3.2+.
   Then go to https://git-scm.com/downloads and install Git(optinial).
   Now open the Comandpromt and type
   ```diff
